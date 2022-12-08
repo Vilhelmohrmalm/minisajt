@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: rgb(50, 49, 49);
-}
 
 header {
   display: flex;
@@ -28,24 +25,4 @@ a {
 
 a:hover {
   font-size: 35px;
-}
-
-img {
-  width: 100%;
-}
-
-.bild {
-  position: absolute;
-}
-
-h1 {
-  display: flex;
-}
-
-.kolum {
-  width: 50%;
-  margin: 10px;
-  padding: 5px;
-  color: white;
-  border: solid white;
 }
