@@ -37,7 +37,6 @@ img {
 }
 
 .bild {
-  position: absolute;
   width: 100%;
 }
 
@@ -71,15 +70,15 @@ h1 {
 .info {
   padding: 10px;
 }
-
 @media screen and (max-width: 820px) {
   body {
-    display: flexbox;
+    display: flex;
   }
   header {
     width: 100vw;
     height: 20vw;
     padding: 3px;
+    flex-direction: column;
   }
 
   img {
