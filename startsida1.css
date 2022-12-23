@@ -74,12 +74,16 @@ h1 {
   body {
     display: flex;
   }
+
   header {
     width: 100vw;
     height: 20vw;
     padding: 3px;
     flex-direction: column;
-    font-size: 2vw;
+  }
+
+  .head {
+    font-size: 5%;
   }
 
   img {
