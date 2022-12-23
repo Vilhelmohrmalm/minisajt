@@ -70,7 +70,7 @@ h1 {
 .info {
   padding: 10px;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 930px) {
   body {
     display: flex;
   }
@@ -82,8 +82,8 @@ h1 {
     flex-direction: column;
   }
 
-  .head {
-    font-size: 5%;
+  a {
+    font-size: 10vw;
   }
 
   img {
