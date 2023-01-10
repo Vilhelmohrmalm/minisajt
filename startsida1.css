@@ -9,21 +9,21 @@ body {
 header {
   display: flex;
   background-color: black;
-  padding: 10px;
+  padding: 1vw;
   position: sticky;
   top: 0;
 }
 
 .head {
   color: white;
-  margin: 15px;
+  margin: 2vw;
   border: solid white;
-  padding: 15px;
+  padding: 2vw;
 }
 
 a {
   color: white;
-  font-size: 30px;
+  font-size: 2.5vw;
   display: inline-block;
 }
 
