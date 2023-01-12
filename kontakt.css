@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(50, 49, 49);
+}
+
+header {
+  display: flex;
+  background-color: black;
+  padding: 1vw;
+  position: sticky;
+  top: 0;
+}
+
+.head {
+  color: white;
+  margin: 2vw;
+  border: solid white;
+  padding: 1.5vw;
+}
+
+a {
+  color: white;
+  font-size: 2vw;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+form {
+  margin-left: 5vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  color: aliceblue;
+}
+
+#meddelande {
+  padding: 3vw;
+}
+
+button {
+  margin-left: 5vw;
+  margin-top: 1vw;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 930px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+    padding: 3px;
+    flex-direction: column;
+    position: static;
+    z-index: 5;
+  }
+
+  a {
+    font-size: 10vw;
+  }
+
+  form {
+    font-size: 5vw;
+  }
+
+  button {
+    font-size: 5vw;
+    width: 30vw;
+  }
+
+  .fa-3x {
+    font-size: 9vw;
+  }
+}

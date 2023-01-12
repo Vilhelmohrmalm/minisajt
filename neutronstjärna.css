@@ -26,6 +26,7 @@ a {
   color: white;
   font-size: 30px;
   display: inline-block;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -109,5 +110,9 @@ img {
 
   .fa-3x {
     font-size: 8vw;
+  }
+
+  .info {
+    font-size: 5vw;
   }
 }

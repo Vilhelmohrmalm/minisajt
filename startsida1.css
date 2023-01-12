@@ -25,6 +25,7 @@ a {
   color: white;
   font-size: 2vw;
   display: inline-block;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -73,6 +74,10 @@ section {
   font-family: "Akaya Kanadaka", cursive;
 }
 
+.mail {
+  border: solid;
+  padding: 0.5vw;
+}
 @media screen and (max-width: 930px) {
   body {
     display: flex;
@@ -115,5 +120,9 @@ section {
 
   .fa-3x {
     font-size: 9vw;
+  }
+
+  .info {
+    font-size: 5vw;
   }
 }
