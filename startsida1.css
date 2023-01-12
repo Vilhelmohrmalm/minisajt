@@ -70,7 +70,9 @@ section {
 
 .info {
   padding: 10px;
+  font-family: "Akaya Kanadaka", cursive;
 }
+
 @media screen and (max-width: 930px) {
   body {
     display: flex;
