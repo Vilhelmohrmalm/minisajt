@@ -79,7 +79,7 @@ section {
 
   header {
     width: 100vw;
-    height: 20vw;
+    height: auto;
     padding: 3px;
     flex-direction: column;
     position: static;
