@@ -78,8 +78,8 @@ img {
 
   header {
     width: 100vw;
-    margin: 0.3vw;
-    height: 20vw;
+    margin: 4vw;
+    height: auto;
     flex-direction: column;
     position: static;
     z-index: 5;
@@ -94,11 +94,8 @@ img {
     height: auto;
   }
 
-  .kolum {
-    box-sizing: border-box;
-    width: 100vw;
-    margin: 4vw;
-    padding: 2vw;
+  .fakta {
+    font-size: 4.5vw;
   }
 
   .kontaktinfo {
@@ -110,6 +107,6 @@ img {
   }
 
   .fa-3x {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 }
