@@ -72,6 +72,11 @@ img {
   font-family: "Akaya Kanadaka", cursive;
 }
 
+.mail {
+  border: solid;
+  padding: 0.5vw;
+}
+
 @media screen and (max-width: 930px) {
   body {
     display: flex;
@@ -94,10 +99,12 @@ img {
   img {
     width: 100vw;
     height: auto;
+    margin: 3vw;
   }
 
   .fakta {
     font-size: 4.5vw;
+    margin: 6vw;
   }
 
   .kontaktinfo {
